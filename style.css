@@ -1,0 +1,64 @@
+table {
+    table-layout: fixed;
+}
+
+tr:nth-of-type(odd){
+    background-color: #e1e5ed;
+}
+
+#budget {
+    float: right;
+    text-align: right;
+}
+
+.deleteButton {
+    width: max-content;
+}
+
+.container {
+    width: 574px;
+    margin: 0 auto;
+}
+
+input {
+    margin-bottom: 3px;
+}
+
+#inputs {
+    margin-bottom: 10px;
+}
+
+img {
+    width: 14px;
+}
+
+.firstName {
+    width: 110px;
+}
+
+.lastName {
+    width: 110px;
+}
+
+.id {
+    width: 50px;
+}
+
+.title {
+    width: 200px;
+}
+
+.annualSalary {
+    width: 90px;
+}
+
+#remainingBudget {    
+    margin-top: 20px;
+    background-color: #445570;
+    color: white;
+}
+
+th {
+    background-color: #445570;
+    color: white;
+}
